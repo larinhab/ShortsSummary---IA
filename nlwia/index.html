@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="/web/styles/form.css">
+    <link rel="stylesheet" href="/web/styles/app.css" class="app">
+    <link rel="stylesheet" href="/web/styles/base.css" class="css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="./public/logo.svg" alt="Logo Shorts Summary">
+      <h1>Shorts Summary</h1>
+
+      <form id="form">
+        <input type="url" id="url" placeholder="Paste the URL link here">
+        <button title="Translate">
+          <i class="ph ph-play"></i>
+        </button>
+      </form>
+
+      <h2>Resume</h2>
+      <p  id="content" class="placeholder">Choose a Shorts or a Reels to resume:</p>
+    </div>
+
+    <script type="module" src="./web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  </body>
+</html>

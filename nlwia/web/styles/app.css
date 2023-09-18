@@ -1,0 +1,35 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app > h1{
+    color: #996dff;
+    margin-top: -5px;
+    font-size: 42px;
+
+}
+
+#app > img {
+    width: 86px;
+}
+
+#app > h2 {
+/*    align-items: flex-start; */
+    margin-top: 64px;
+}
+
+#app > p {
+    display: flex;
+    width: 512px;
+    justify-content: center;
+    margin-top: -5px;
+/*  text-align: justify; 
+    align-items: flex-start;*/
+}
+
+#app .placeholder {
+    color: #7c7c8a;
+    user-select: none;
+}
